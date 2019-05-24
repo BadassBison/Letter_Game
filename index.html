@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+		<link rel="stylesheet" href="styles/main.css">
+		
+		<title>Letter Game</title>
+	</head>
+	
+	
+	<body>
+		<div id="game">
+			<canvas id="gameCanvas" width="300" height="400">
+				This is an interactive game
+			</canvas>
+		</div>
+		
+		<div id="gameOverView" class="closed">
+			<h1>You Won!</h1><br><br>
+			<button onclick="location.reload();" id="restart">Restart</button>
+		</div>
+
+		<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+		<script src="scripts/count-game-graphics.js"></script>
+		<script src="scripts/scripts.js"></script>
+	</body>
+</html>
